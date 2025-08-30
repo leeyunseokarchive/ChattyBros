@@ -1,4 +1,4 @@
-# ChattyBros
+<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=ChattyBros&fontSize=90" />
 
 ## 📆 제작 기간  
 2025년 8월 29일 - (진행중)
