@@ -1,72 +1,56 @@
-# Leeyunseok Portfolio
+# ChattyBros
 
-[Leeyunseok Portfolio](http://demoweb-63168.web.app)
+## 📆 제작 기간  
+2025년 8월 29일 - (진행중)
 
 ---
 
 ## 📌 개요  
-**Leeyunseok Portfolio**는 프론트엔드 및 미디어 제작 경험을 기반으로 한 포트폴리오 웹사이트입니다.  
-미니멀한 디자인을 유지하면서도, 인터랙션 중심의 구성과 사용자 친화적 네비게이션을 통해 정보 전달과 사용성을 모두 고려해 설계되었습니다.
+**ChattyBros**는 멀티 페르소나 LLM 기반 실시간 인터랙티브 채팅 서비스입니다.  
+사용자는 동시에 여러 AI 페르소나와 대화할 수 있으며, 각 페르소나는 서로 다른 성격과 관점을 반영하여 이용자로 하여금 든든한 공동체에 속한 듯한 경험을 제공합니다.  
+
+ChattyBros는 단순한 대화 도구를 넘어 **현대인의 외로움을 해소**하고, 언제든지 **개인적인 고민을 안전하게 털어놓을 수 있는 공간**을 지향합니다. 모든 대화는 유출 걱정 없이 보호되며, 다양한 페르소나들이 이용자의 이야기를 다각도로 반응해 줌으로써 **진짜 친구** 같은 소속감을 느낄 수 있습니다.  
+
+2025년 9월 기준 ChattyBros는 개성 있는 4개의 페르소나로 운영되며, 추후 더 다양한 성격과 배경을 가진 페르소나를 지속적으로 추가할 예정입니다.
 
 ---
 
 ## 🛠️ 기술 스택  
-![html](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
-![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
-![css](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
-![fb](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+
+### 📱 Frontend
+![react-native](https://img.shields.io/badge/ReactNative-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+
+### ⚙️ Backend
+![express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+
+### 🤖 AI / API
+![gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+### 🛠️ Tooling
+![xcode](https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white)
+![vscode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
 ---
 
 ## 📂 폴더 구조
-```
-📦 
-├─ .DS_Store
-├─ .firebaserc
-├─ .gitignore
-├─ firebase.json
-├─ package-lock.json
-└─ public
-   ├─ index.html
-   ├─ script.js
-   ├─ style.css
-   ├─ resource/
-   │  ├─ people.svg
-   │  ├─ about.svg
-   │  ├─ code.svg
-   │  ├─ movie.svg
-   │  ├─ log.svg
-   │  ├─ healthPTImage.webp
-   │  ├─ garageImage.webp
-   │  ├─ mvImage.webp
-   │  ├─ carImage.webp
-   │  └─ estateImage.webp
-```
+
+
 ---
 
 ## ✨ 주요 기능  
-- 자기소개, 프로젝트, 영상 작업 등으로 구성된 단일 페이지 포트폴리오  
-- 반응형 레이아웃 기반의 크로스 디바이스 호환성  
-- 햄버거 메뉴와 슬라이드 전환 기능을 포함한 사용자 중심 인터랙션  
-- Flip 카드 구조를 통한 정보 분리 및 외부 링크 연결
-- Firebase Hosting을 이용한 정적 웹사이트 배포  
-
----
-
-## 📆 제작기 (총 6주차)
-[leeyunseokarchive 블로그](https://blog.naver.com/dbstjr3576)
-| 주차 | 작업 내용 |
-|------|-----------|
-| [1주차](https://blog.naver.com/dbstjr3576/223917120063) | 포트폴리오 웹사이트 기획 및 개발 환경 설정 |
-| [2주차](https://blog.naver.com/dbstjr3576/223925445731) | 호스팅 연동 |
-| [3주차](https://blog.naver.com/dbstjr3576/223933631120) | 포트폴리오 디자인 및 내용 정리 |
-| [4주차](https://blog.naver.com/dbstjr3576/223941793069) | 기본 마크업 및 스타일링 |
-| [5주차](https://blog.naver.com/dbstjr3576/223950476465) | 인터랙션 추가, 반응형 작업 및 구조 개선 |
-| [6주차](https://blog.naver.com/dbstjr3576/223959002523) | 최종 점검 및 최종 배포 |
+- 멀티 페르소나 기반 실시간 채팅  
+- 각 페르소나별 독립적인 말투와 응답 방식  
+- 랜덤 지연 응답으로 실제 단체 채팅 같은 사용자 경험 제공  
+- React Native 앱으로 iOS/Android 지원  
+- Express 백엔드와 LLM API 연동 (Google Gemini)  
+- Firebase Hosting 및 배포 자동화  
 
 ---
 
 ## 🙋‍♂️ 제작자  
 - 이름: Leeyunseok
+- 역할: Full-stack Developer (1인 개발)
 - GitHub: [@leeyunseokarchive](https://github.com/leeyunseokarchive)
 - Instagram: [@oskueny](https://www.instagram.com/oskueny/)
 - 문의: dbstjr3576@gmail.com
